@@ -12,10 +12,10 @@ body {
    display: flex;
    align-items: center;
    justify-content: center;
-   /* background-color: #ffffff; */
-   background-image: url("form.jpg");
+   background-color: gainsboro;
+   /* background-image: url("form.jpg");
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: cover; */
    min-height: 100vh;
 }
 
