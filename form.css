@@ -18,7 +18,7 @@ body {
 
 .container {
    position: relative;
-   max-width: 430px;
+   max-width: 400px;
    width: 100%;
    background: #fff;
    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
@@ -199,3 +199,6 @@ th, td {
    border: 1px solid black;
    padding: 8px;
 }
+
+
+
