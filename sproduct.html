@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    <body>
+        <button id="scroll-top-button">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+
+		<section id="header">
+            <a href="#"><img src="img/gp1.jpg" class="logo" alt=""></a>
+    
+            <div>
+                <ul id="navbar">
+                    <li><a href="home.html" class="_blank">Home</a></li>
+                    <li><a href="shop.html" target="active">Shop</a></li>
+                    <li><a href="blog.html" target="_blank">Blog</a></li>
+                    <li><a href="about.html" target="_blank">About</a></li>
+                    <li><a href="contact.html" target="_blank">Contact</a></li>
+                    <li id="lg-bag"><a href="cart.html" target="_blank"><i class="far fa-shopping-bag"></i></a></li>
+                    <!-- <a href="#" id="close"><i class="far fa-times"></i></a> -->
+                    <div id="close"><i class="far fa-times"></i></div>
+                </ul>
+            </div>
+    
+            <div id="mobile">
+                <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+                <i id="bar" class="fas fa-outdent"></i> 
+            </div>
+        </section>
+
+		<section id="prodetails"class="section-p1">
+			<div class="sigle-pro-image">
+				<img src="img/products/f1.jpg" width="100%" id="MainImg" alt="">
+				<div class="small-img-group">
+					<div class="small-img-col">
+						<img src="img/products/f1.jpg" onclick="changeImg(this)" width="100%" id="small-img" alt="">
+					</div>
+					<div class="small-img-col">
+						<a href="sproduct1.html"><img src="img/products/f2.jpg" onclick="changeImg(this)" width="100%" id="small-img" alt=""></a>
+					</div>
+					<div class="small-img-col">
+						<a href="sproduct2.html"><img src="img/products/f3.jpg" onclick="changeImg(this)" width="100%" id="small-img" alt=""></a>
+					</div>
+					<div class="small-img-col">
+						<a href="sproduct3.html"><img src="img/products/f4.jpg" onclick="changeImg(this)" width="100%" id="small-img" alt=""></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="sigle-pro-details">
+				<h4>Men's Fashion T Shirt </h4>
+				<h2>$39.70</h2>
+				<select>
+					<option>Select Size</option>
+					<option>XL</option>
+					<option>XXL</option>
+					<option>Small</option>
+					<option>Large</option>
+				</select>
+				<input type="number"value="1" min="1">
+                <a target="_blank" href="cart.html"><button type="submit">Add To Cart</button></a>
+				<h4>Product Details</h4>
+				
+                <div>
+                    <p>
+                        The Gildan Ultra Cotton T-Shirt is made from a substantial 6.0 oz. per sq.
+                         yd. fabric constructed from 100% cotton, this classic fit preshrunl jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder,
+                        and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turning package.
+                    </p>
+                </div>
+                </div>
+		</section>
+
+        <section id="product1" class="section-p1">
+            <h2>Featured Products</h2>
+            <p>Summer Collection New Morden Design</p>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="img/products/n1.jpg" alt="">
+                    <div class="des">
+                        <span>Logo</span>
+                        <h5>Classic Shirt</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$70.4</h4>
+                    </div>
+                    <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="img/products/n2.jpg" alt="">
+                    <div class="des">
+                        <span>Logo</span>
+                        <h5>Henley Tee</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$70.4</h4>
+                    </div>
+                    <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="img/products/n3.jpg" alt="">
+                    <div class="des">
+                        <span>Logo</span>
+                        <h5>Chambray Shirt</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$70</h4>
+                    </div>
+                    <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="img/products/n4.jpg" alt="">
+                    <div class="des">
+                        <span>Logo</span>
+                        <h5>Linen Blend Camp Shirt</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$75.3</h4>
+                    </div>
+                    <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                </div>
+                
+            </div>
+        </section>
+        
+        <footer class="section-p1">
+            <div class="col">
+                <img class="logo" src="img/gp_1.jpg" alt="">
+                <h4>Contact</h4>
+                <p>Address: <strong><a target="_blank" href="https://www.google.com/maps/place/Parami+Rd,+Yangon/@16.8539236,96.1450133,17z/data=!3m1!4b1!4m5!3m4!1s0x30c1937ae200a1b3:0x8ef027611107cc8a!8m2!3d16.8539236!4d96.1450133">Parami Road, Hlaing Township, Yangon </a></strong></p>
+                <p><strong>Phone: </strong> <a href="tel:+959-988-888-888">+959 988 888 888 / (+95) 988 888 888</a></p>
+                <p><strong>Hours: </strong> 9:00 - 18:00, Mon - Sat</p>
+                <div class="follow">
+                    <h4>Follow us</h4>
+                    <div class="icon">
+                        <a target="_blank" href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a target="_blank" href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                        <a target="_blank" href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a target="_blank" href="https://pinterest.com"><i class="fab fa-pinterest-p"></i></a>
+                        <a target="_blank" href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col">
+                <h4>About</h4>
+                <a href="about.html">About us</a>
+                <a href="deliveryInfo.html">Delivery Information</a>
+                <a href="policy.html">Privacy Policy</a>
+                <a href="terms.html">Terms & Conditions</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+    
+            <div class="col">
+                <h4>My Account</h4>
+                <a href="index.html">Sign In</a>
+                <a href="cart.html">View Cart</a>
+                <a href="wishlist.html">My Wishlist</a>
+                <a href="cart.html">Track My Order</a>
+                <a href="help.html">Help</a>
+            </div>
+    
+            <div class="col install">
+                <h4>Install App</h4>
+                <p>From App Store or Google Play</p>
+                <div class="row">
+                    <a href="https://www.apple.com/app-store/"><img src="img/pay/app.jpg" alt=""></a>
+                    <a href="https://play.google.com/store/games?pli=1"><img src="img/pay/play.jpg" alt=""></a>
+                </div>
+                <p>Secured Payment Gateways</p>
+                <img src="img/pay/pay.png" alt="">
+            </div>
+    
+            <div class="copyright">
+                <p>&copy 2022, <span>B9 UIT Section-B Group-1</span> Responsive Fashion Website</p>
+            </div>
+    
+        </footer>
+    
+        <script src="script.js"></script>
+
+        <script>
+            var scrollTopButton = document.getElementById("scroll-top-button");
+
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollTopButton.style.display = "block";
+            } else {
+                scrollTopButton.style.display = "none";
+            }
+            };
+
+            // When the user clicks on the button, scroll to the top of the document
+            scrollTopButton.addEventListener("click", function() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+            });
+        </script>
+    </body>
+
+</html>
