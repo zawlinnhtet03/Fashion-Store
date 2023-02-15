@@ -1,2 +1,2 @@
-# oneFashionShop.github.io
+# One Fashion Shop
 UIT Web Project
